@@ -43,6 +43,7 @@ dependencies {
     testCompile("junit:junit")
     compile("org.springframework.boot:spring-boot-starter-web:1.1.6.RELEASE")
     compile("commons-logging:commons-logging:1.1.3")
+    compile("org.scalaj:scalaj-http_2.8.0:0.3.2")
 }
 
 task wrapper(type: Wrapper) {
